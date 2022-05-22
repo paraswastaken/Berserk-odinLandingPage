@@ -1,14 +1,16 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
+    margin: 0;
+    min-height: 100vh;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .hCont>img{
     width: 50%;
     height: auto;
     flex-grow: 1;
+    background-color: #414449;
 }
 
 .header {
@@ -16,13 +18,13 @@ body {
     flex-direction: column;
     background-color: #1f2937;
     color: #f9faf8;
-    padding: 8px 15%;
+    padding: 8px 12%;
 }
 
 .head {
     display: flex;
     justify-content: space-between;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .head>ul {
@@ -31,7 +33,7 @@ body {
     padding: 0;
     display: flex;
     gap: 16px;
-    font-size: 18px;
+    font-size: 12px;
 }
 
 .hCont {
@@ -40,9 +42,33 @@ body {
     padding: 64px 0;
 }
 
+.hCont>.text>div {
+    font-size: 36px;
+}
+
 .hCont>.text {
     width: 50%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    font-size: 12px;
+    gap: 8px;
+}
+
+.body1 {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 12%;
+    font-size: 12px;
+    flex-grow: 1;
+}
+
+.body1>.head {
+    align-self: center;
+    font-size: 24px;
+    margin-bottom: 32px;
+}
+
+.illSub {
+    display: flex;
 }
