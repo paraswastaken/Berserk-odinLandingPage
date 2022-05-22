@@ -60,7 +60,7 @@ body {
     flex-direction: column;
     padding: 32px 12%;
     font-size: 12px;
-    flex-grow: 1;
+    text-align: center;
 }
 
 .body1>.head {
@@ -71,4 +71,21 @@ body {
 
 .illSub {
     display: flex;
+    gap: 24px;
+}
+
+.illSub>div {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.illSub>div>div {
+    width: auto;
+    height: 150px;
+    flex-grow: 1;
+    border-radius: 10px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #3882f6;
 }
