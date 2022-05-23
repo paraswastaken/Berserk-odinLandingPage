@@ -20,6 +20,11 @@ body {
     font-size: 32px;
 }
 
+.head img {
+    max-height: 100px;
+    width: auto;
+}
+
 .head>ul {
     list-style: none;
     flex-grow: 1;
@@ -36,13 +41,15 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 128px 0;
-    gap: 32px;
+    gap: 28px;
 }
 
 .hCont>img{
+    max-width: 50%;
     height: auto;
     flex-grow: 1;
     background-color: #414449;
+    border-radius: 5px;
 }
 
 .hCont>.text>div {
@@ -78,8 +85,9 @@ button {
     padding: 0 22%;
     font-size: 18px;
     text-align: center;
-    margin-top: 46px;
-    margin-bottom: 128px;
+    padding-top: 46px;
+    padding-bottom: 128px;
+    background-size: cover;
 }
 
 .body1>.head {
@@ -121,6 +129,7 @@ button {
     padding: 108px 25%;
     font-size: 28px;
     text-align: right;
+    margin-top: 128px;
 }
 
 .body2>.quote {
@@ -164,4 +173,16 @@ button {
     font-weight: 300;
     text-align: center;
     padding: 36px;
+}
+
+.imgBod {
+    display: block;
+    margin: auto;
+    max-width: inherit;
+    height: 50%;
+    overflow: hidden;
+}
+
+.imgBod>img {
+    max-width: 100%;
 }
