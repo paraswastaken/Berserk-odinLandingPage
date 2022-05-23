@@ -50,6 +50,7 @@ body {
     flex-grow: 1;
     background-color: #414449;
     border-radius: 5px;
+    align-self: center;
 }
 
 .hCont>.text>div {
@@ -130,6 +131,7 @@ button {
     font-size: 28px;
     text-align: right;
     margin-top: 128px;
+    font-weight: 400;
 }
 
 .body2>.quote {
@@ -173,14 +175,6 @@ button {
     font-weight: 300;
     text-align: center;
     padding: 36px;
-}
-
-.imgBod {
-    display: block;
-    margin: auto;
-    max-width: inherit;
-    height: 50%;
-    overflow: hidden;
 }
 
 .imgBod>img {
