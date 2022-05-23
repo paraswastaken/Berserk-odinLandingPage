@@ -6,72 +6,94 @@ body {
     flex-direction: column;
 }
 
-.hCont>img{
-    width: 50%;
-    height: auto;
-    flex-grow: 1;
-    background-color: #414449;
-}
-
 .header {
     display: flex;
     flex-direction: column;
     background-color: #1f2937;
     color: #f9faf8;
-    padding: 8px 12%;
+    padding: 24px 15%;
 }
 
 .head {
     display: flex;
     justify-content: space-between;
-    font-size: 18px;
+    font-size: 32px;
 }
 
 .head>ul {
     list-style: none;
+    flex-grow: 1;
+    max-width: 45%;
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 16px;
-    font-size: 12px;
+    justify-content: space-between;
+    font-size: 24px;
+    font-weight: 300;
 }
 
 .hCont {
     display: flex;
-    justify-content: center;
-    padding: 64px 0;
+    justify-content: space-between;
+    padding: 128px 0;
+    gap: 32px;
+}
+
+.hCont>img{
+    height: auto;
+    flex-grow: 1;
+    background-color: #414449;
 }
 
 .hCont>.text>div {
-    font-size: 36px;
+    font-size: 56px;
+    font-weight: normal;
 }
 
 .hCont>.text {
-    width: 50%;
+    max-width: 45%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    font-size: 12px;
-    gap: 8px;
+    font-size: 24px;
+    font-weight: 300;
+    gap: 16px;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 10px;
+    font-family: inherit;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 8px 0;
 }
 
 .body1 {
     display: flex;
     flex-direction: column;
-    padding: 32px 12%;
-    font-size: 12px;
+    padding: 0 22%;
+    font-size: 18px;
     text-align: center;
+    margin-top: 46px;
+    margin-bottom: 128px;
 }
 
 .body1>.head {
     align-self: center;
-    font-size: 24px;
-    margin-bottom: 32px;
+    font-size: 40px;
+    margin-bottom: 46px;
 }
 
 .illSub {
+    padding: 8px;
     display: flex;
-    gap: 24px;
+    gap: 46px;
+    font-weight: 300;
+    justify-content: space-between;
 }
 
 .illSub>div {
@@ -81,11 +103,65 @@ body {
 }
 
 .illSub>div>div {
-    width: auto;
-    height: 150px;
+    width: 100%;
+    padding: 40%;
+    position: relative;
+    box-sizing: border-box;
     flex-grow: 1;
-    border-radius: 10px;
-    border-width: 3px;
+    border-radius: 20px;
+    border-width: 5px;
     border-style: solid;
     border-color: #3882f6;
+}
+
+.body2 {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 108px 25%;
+    font-size: 28px;
+    text-align: right;
+}
+
+.body2>.quote {
+    font-weight: lighter;
+    font-size: 42px;
+    font-style: italic;
+    text-align: left;
+}
+
+.body3 {
+    background-color: #3882f6;
+    margin: 128px 15%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    text-align: center;
+    padding: 64px 144px;
+    border-radius: 10px;
+}
+
+.left>.head {
+    color: #e5e7eb;
+    font-size: 32px;
+}
+
+.left>.text {
+    color: #e5e7eb;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.body3>button {
+    border-style: solid;
+    border-color: #e5e7eb;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    padding: 36px;
 }
