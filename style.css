@@ -48,7 +48,6 @@ body {
     max-width: 50%;
     height: auto;
     flex-grow: 1;
-    background-color: #414449;
     border-radius: 5px;
     align-self: center;
 }
